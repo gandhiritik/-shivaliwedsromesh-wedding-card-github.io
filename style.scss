@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+@media (max-width:500px){
+
+
+
+    body{
+        background:#ffff;
+        border: 5px solid goldenrod;
+        padding: 0;
+        margin: 0;
+        
+       
+        
+
+
+        .top{
+            
+           
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        .top-main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            color: goldenrod;
+           
+            h1{
+                font-size: 10px;
+                padding: 5%;
+                padding-top: 10%;
+                text-transform: uppercase;
+                font-family: 'Pacifico', cursive;
+            }
+            
+           img{
+               width: 20%;
+               height: 20%;
+               opacity: 0.8;
+           }
+
+
+        }
+
+           .line{
+               width: 100%;
+               height: auto;
+              
+               color: #ffff;
+               text-align: center;
+                background-image: url("http://wp.thebigfatindianwedding.com/wp-content/uploads/2014/10/WeddingGif.2.gif");
+                background-size: cover;
+               font-family: 'Pacifico', cursive;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .line1{
+               background-image: url("./images/shivali\ d\ image.jpeg");
+               background-size: cover;
+               background-position: center;
+               background-repeat: no-repeat;
+               width: 100%;
+               height: auto;
+               color: white;
+               font-family: 'Pacifico', cursive;
+               text-align: center;
+
+           }
+
+           .table{
+               padding: 5% 0;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               align-items: center;
+               h1{
+                   border: 1px solid white;
+                   width: 50%;
+               }
+
+               .grid{
+                   display: flex;
+                  
+
+                   .row{
+                       
+                       margin: 0 0%;
+                       padding: 0 0%;
+
+                       p:hover{
+                           color: goldenrod;
+                       }
+                        
+                       
+                   }
+               }
+           }
+
+
+           .end{
+               width: 100%;
+               height: auto;
+               background-color: goldenrod;
+               color: white;
+
+
+               .contact{
+                   display: flex;
+                   justify-content: center;
+                   flex-direction: column;
+                   align-items: center;
+                   border-bottom: 1px solid white;
+                   
+                   h4{
+                       text-decoration: underline;
+                       font-size: 20px;
+                   }
+                   p{
+                       font-size: 18px;
+                   }
+
+               }
+
+
+
+
+               .footer{
+
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                font-family: 'Waiting for the Sunrise', cursive;
+                font-weight: 1000;
+
+                .footer-line1{
+                    display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2%;
+                text-align: center;
+
+                }
+                .gif{
+                    display: flex;
+                    justify-content: center;
+                   img{
+                       width: 20%;
+                       height: 10%;
+                   }
+                }
+               }
+              
+           }
+        }
+
+
+
+
+       
+            
+        
+    }
+
+hr{
+    width: 50%;
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+}
+
+
+}
+
+
+
